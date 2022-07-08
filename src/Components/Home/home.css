@@ -1,0 +1,85 @@
+.HomePage {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-image: linear-gradient(to right, #abbaab 0%, #ffffff 51%, #abbaab 100%); */
+    text-align: center;
+    background-size: 200% auto;
+    width: 100%;
+    height: 100vh;
+}
+
+.auth-buttons {
+    text-align: center;
+    align-items: center;
+}
+
+.cloud-logo {
+    width: 60px;
+}
+
+.span {
+    color: #12B0E8;
+}
+
+h3 {
+    color: #242B2E;
+}
+
+.google {
+    background-image: linear-gradient(to right, #ff0084 0%, #33001b 51%, #ff0084 100%);
+    margin: 10px;
+    padding: 15px 45px;
+    text-align: center;
+    /* text-transform: uppercase; */
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;
+    box-shadow: 0 0 20px #eee;
+    border-radius: 10px;
+    cursor: pointer;
+    border: none;
+
+    /* display: block; */
+
+}
+
+
+.email {
+    background-image: linear-gradient(to right, #4CA1AF 0%, #C4E0E5 51%, #4CA1AF 100%);
+    margin: 10px;
+    padding: 15px 45px;
+    text-align: center;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;
+    box-shadow: 0 0 20px #eee;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+.email:hover {
+    background-position: right center;
+    /* change the direction of the change here */
+    color: #fff;
+    text-decoration: none;
+}
+
+
+
+.google:hover {
+    background-position: right center;
+    /* change the direction of the change here */
+    color: #fff;
+    text-decoration: none;
+}
+.error{
+    position: absolute;
+    bottom: 0;
+    background-color: black;
+    color: white;
+    width: 100%;
+    font-size: 12px;
+    /* padding: 5px; */
+}
